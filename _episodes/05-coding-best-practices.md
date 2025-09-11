@@ -219,7 +219,7 @@ On the other hand, you might want to knock together some code to prove a concept
 
 > ## What to do with Short-Lived Code?
 > 
-> Even short-lived code can contain useful lessons learned, perhaps about how to use a particular technology, how it was written, or importantly, how it solved a *particular problem*. So when short-lived code has outlived it's original purpose, what should you do with it?
+> Even short-lived code can contain useful lessons learned, perhaps about how to use a particular technology, how it was written, or importantly, how it solved a *particular problem*. So when short-lived code has outlived its original purpose, what should you do with it?
 > 
 > One way is to essentially *archive* the software, putting it into a state where it can be readily picked up again later. This usually means tidying up the code, adding comments, and in particular adding a short document (sometimes called a README) that summarises the code and how to set up and use it. Having the code stored in a code repository like GitHub is great for this, and very strongly recommended - for all code you write.
 > 
