@@ -204,7 +204,7 @@ More formally, the IEEE Standard Glossary of Software Engineering Terminology de
 
 > "The ease with which a software system or component can be modified to correct faults, improve performance or other attributes, or adapt to a changed environment."
 
-The maintainability of software depends on quite a few factors. However, in general it must be easy to understand the software (how it works, what it does, and why it does it a particular way), easy to find what needs to change to achieve a given aim, easy to make those changes, and easy to check that the changes have not introduced any bugs. Writing readable code, as covered previously in this section, goes a long way to making code maintainable.
+The maintainability of software depends on quite a few factors. However, in general it must be easy to understand (how it works, what it does, and why it does it a particular way), easy to find what needs to change to achieve a given aim, easy to make those changes, and easy to check that the changes have not introduced any bugs. Writing readable code, as covered previously in this section, goes a long way to making code maintainable.
 
 ### Long- or Short-Lived Code?
 
