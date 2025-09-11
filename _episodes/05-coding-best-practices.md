@@ -240,7 +240,7 @@ Help is at hand! Developing maintainable software helps reduce technical debt. B
 
 ### How to Develop Maintainable Software
 
-Developing maintainable software is like picnicking: once you're finished, leave your spot as you would like to find it yourself, or leave it in a better state than you found it. There are a number of principles, approaches and techniques that can help you develop maintainable software, and many of these are generally applicable to writing good software:
+Developing maintainable software is like picnicking: once you're finished, leave your spot as you would like to find it yourself, or leave it in a better state than you found it. There are a number of principles, approaches and techniques that can help you develop maintainable software and many of these are generally applicable to writing good software:
 
 - *Start as you mean to go on:* write maintainable code from the outset, and make maintainability a key goal
 - *Keep it functional:* write code in short, iterative cycles that aim to keep code in a working state
