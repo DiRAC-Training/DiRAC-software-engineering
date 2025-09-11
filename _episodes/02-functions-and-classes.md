@@ -133,7 +133,7 @@ print(pi)
 ### Function Composition
 
 One of the main benefits of breaking our code up into functions is that it allows us to use **composition**.
-Often, we find that a task is **composed** of several smaller sub-tasks - an example of this can be seen when we convert temperatures between Fahrenheit, Celsius and Kelvin.
+Often, we find that a task is **composed** of several smaller subtasks; an example of this can be seen when we convert temperatures between Fahrenheit, Celsius and Kelvin.
 Writing two functions to perform temperature conversion from Fahrenheit, we might have:
 
 ~~~ python
