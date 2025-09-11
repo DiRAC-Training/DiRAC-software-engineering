@@ -260,7 +260,7 @@ print(sum(l))
 
 In **Object Oriented Programming**, we first think about the structure of the data and the things that we're modelling.
 For example, if we're writing a simulation for our chemistry research, we're probably going to need to represent atoms and molecules.
-Each of these has a set of properties which we need to know about in order for our code to perform the tasks we want - in this case, for example, we often need to know the mass and electric charge of each atom.
+Each of these has a set of properties which we need to know about in order for our code to perform the tasks we want; in this case, for example, we often need to know the mass and electric charge of each atom.
 So with Object Oriented Programming, we'll have some **object** structure which represents an atom and all of its properties, another structure to represent a molecule, and a relationship between the two (a molecule contains atoms).
 This structure also provides a way for us to associate code with an object, representing any **behaviours** it may have.
 
