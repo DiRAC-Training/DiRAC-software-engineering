@@ -105,7 +105,7 @@ Indentation makes a clear connection between blocks of code and the classes, fun
 
 In many languages, indentation is purely cosmetic (e.g. Java or C/C++) and the number of spaces used to indent code is left to the developer to decide. However, in certain languages (e.g. Python or Occam) indentation is more restrictive because it has semantic significance: it defines a loop body or a function body.
 
-Many programming environments, also known as Integrated Development Environments or IDES (e.g. PyCharm, Eclipse, JBuilder, NetBeans and Microsoft Visual Studio), provide support for code formatting, and many text editors can be extended with support for language-specific indentation (e.g. Microsoft Visual Studio Code).
+Many programming environments, also known as Integrated Development Environments or IDES (e.g. PyCharm, Eclipse, JBuilder, NetBeans and Microsoft Visual Studio), provide support for code formatting and many text editors can be extended with support for language-specific indentation (e.g. Microsoft Visual Studio Code).
 
 Good formatting can impact upon design. A function with seven arguments might not be very readable on-screen, for example. To make it more readable, you could create a new data structure or class to hold some of the arguments. We could also break up a function that cannot be viewed on one screen into a number of smaller functions that can, if the function can be logically decomposed in this way. However, note that in some circumstances, such as within a functional programming paradigm, having many arguments may be unavoidable!
 
