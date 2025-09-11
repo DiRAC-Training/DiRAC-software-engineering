@@ -73,8 +73,8 @@ By writing our code in a functional style, we also gain the ability to run many 
 
 We define a **pure function** as one which satisfies two criteria:
 
-1. The data returned must be the same each time the same arguments are provided
-2. Calling the function has no **side effects**
+1. The data returned must be the same each time the same arguments are provided.
+2. Calling the function has no **side effects**.
 
 Side effects cover any action that a function performs which affects anything other than the value they return.
 Examples include: printing text, modifying the value of an argument, or changing the value of a global variable.
