@@ -174,7 +174,7 @@ Note here we are explicitly documenting our input variables, what is returned by
 
 As each language has its own syntax, semantics and sets of built-in commands, what constitutes readable code differs across programming language. What is readable is also affected by the opinions and preferences of the individual reader. Nevertheless, a number of language-specific coding conventions have evolved, reflecting both general and language-specific good practice.
 
-It’s recommended that projects adopt a set of coding conventions or *style guide*. Not only does this promote readable code, it helps ensure that the code looks consistent, even if it the software consists of hundreds of source code files and is worked on by many developers. Projects as varied as Mozilla, Linux, Apache, GNU, and Eclipse all have their own project-specific conventions that their developers are expected to conform to. The Python language, for example, has the [PEP8](https://peps.python.org/pep-0008/) style guide.
+It’s recommended that projects adopt a set of coding conventions or *style guide*. Not only does this promote readable code, it helps ensure that the code looks consistent, even if the software consists of hundreds of source code files and is worked on by many developers. Projects as varied as Mozilla, Linux, Apache, GNU, and Eclipse all have their own project-specific conventions that their developers are expected to conform to. The Python language, for example, has the [PEP8](https://peps.python.org/pep-0008/) style guide.
 
 > ## Style consistency
 > 
