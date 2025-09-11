@@ -214,7 +214,7 @@ On the other hand, you might want to knock together some code to prove a concept
 
 > ## Short-Lived Code, or Not?
 > 
-> Have you ever used any code or software that was intended to be "short-lived" - whether written by yourself or not? Perhaps it's a short script or other small piece of code. Would it have benefited from greater effort to improve it for longer-term use, and if so, when should that have been considered?
+> Have you ever used any code or software that was intended to be "short-lived", whether written by yourself or not? Perhaps it's a short script or other small piece of code. Would it have benefited from greater effort to improve it for longer-term use, and if so, when should that have been considered?
 {: .challenge}
 
 > ## What to do with Short-Lived Code?
