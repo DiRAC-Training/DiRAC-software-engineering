@@ -242,12 +242,12 @@ Help is at hand! Developing maintainable software helps reduce technical debt. B
 
 Developing maintainable software is like picnicking: once you're finished, leave your spot as you would like to find it yourself, or leave it in a better state than you found it. There are a number of principles, approaches and techniques that can help you develop maintainable software and many of these are generally applicable to writing good software:
 
-- *Start as you mean to go on:* write maintainable code from the outset, and make maintainability a key goal
-- *Keep it functional:* write code in short, iterative cycles that aim to keep code in a working state
-- *Refactor your code:* once your code gets messy and hard to understand, rewrite it to function the same but be easier to read
-- *Get it reviewed:* Get others to look at your code to check it is understandable - particularly sections that are critically important
-- *Document your code:* so you and others can understand it now and later
-- *Use version control:* version control helps keep code and documentation up to date and synchronised, and allows you to roll back any parts of your code to previous versions if you run into trouble
+- *Start as you mean to go on:* write maintainable code from the outset, and make maintainability a key goal.
+- *Keep it functional:* write code in short, iterative cycles that aim to keep code in a working state.
+- *Refactor your code:* once your code gets messy and hard to understand, rewrite it to function the same but be easier to read.
+- *Get it reviewed:* Get others to look at your code to check it is understandable - particularly sections that are critically important.
+- *Document your code:* so you and others can understand it now and later.
+- *Use version control:* version control helps keep code and documentation up to date and synchronised, and allows you to roll back any parts of your code to previous versions if you run into trouble.
 - *Select sustainable technologies:* to avoid using libraries and other dependencies that may become outdated or even non-functional during development or use, be sure to choose technologies that have a good track record of delivering quality releases, and a sustainable, active development community.
 
 > ## Which Qualities do *you* Value?
