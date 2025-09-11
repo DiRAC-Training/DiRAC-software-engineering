@@ -327,7 +327,7 @@ Now we're using a composition of two custom classes to describe the relationship
 
 > ## Composition: What About Extending it Further?
 > 
-> Of course, reality is often more complex than a single relationship between two types of 'thing', and we can also add other classes and relationships to our model as required. Let's consider adding a doctor that has patients (just after the `Patient` class):
+> Of course, reality is often more complex than a single relationship between two types of 'thing' and we can also add other classes and relationships to our model as required. Let's consider adding a doctor that has patients (just after the `Patient` class):
 > 
 > ~~~ python
 > class Doctor:
