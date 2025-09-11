@@ -180,7 +180,7 @@ For each patient, we might need to keep track of:
 - Some general health measurements
 - Measurements of the trial outcome indicator
 
-Using the data structures we've seen so far, we might implement this using a dictionary for each patient - so all of our patients would be represented in a list of dictionaries:
+Using the data structures we've seen so far, we might implement this using a dictionary for each patient, so all of our patients would be represented in a list of dictionaries:
 
 ~~~ python
 alice = {
