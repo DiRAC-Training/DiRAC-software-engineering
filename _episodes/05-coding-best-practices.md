@@ -223,7 +223,7 @@ On the other hand, you might want to knock together some code to prove a concept
 > 
 > One way is to essentially *archive* the software, putting it into a state where it can be readily picked up again later. This usually means tidying up the code, adding comments, and in particular adding a short document (sometimes called a README) that summarises the code and how to set up and use it. Having the code stored in a code repository like GitHub is great for this and very strongly recommended for all code you write.
 > 
-> A small investment in the maintainability of your code makes it easier to pick it up after a break, and can provide you with an insurance policy should your disposable software turn out to be more useful than you originally thought.
+> A small investment in the maintainability of your code makes it easier to pick it up after a break and can provide you with an insurance policy should your disposable software turn out to be more useful than you originally thought.
 {: .callout}
 
 ### The Cost of Neglecting Maintainability
