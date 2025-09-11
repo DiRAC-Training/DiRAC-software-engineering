@@ -241,7 +241,7 @@ print(sum(l))
 >
 > > ## Solution
 > >
-> > The correct answer is `sum_of_squares_a`.
+> > The correct answer is `sum_of_squares_a`
 > >
 > > - Function B uses a dictionary comprehension - when we attempt to `sum` this we get a sum of the dictionary keys.
 > > - Function C uses invalid syntax - we can't use `=` assignment inside a comprehension.
