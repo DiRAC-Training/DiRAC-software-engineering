@@ -273,8 +273,8 @@ The next step we need to take is to describe the relationships between the conce
 
 There are two fundamental types of relationship between objects which we need to be able to describe:
 
-1. Ownership - x **has a** y - this is **composition**
-2. Identity - x **is a** y - this is **inheritance**
+1. Ownership - x **has a** y - this is **composition**.
+2. Identity - x **is a** y - this is **inheritance**.
 
 ### Composition
 
