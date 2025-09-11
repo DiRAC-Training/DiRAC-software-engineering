@@ -179,8 +179,7 @@ It’s recommended that projects adopt a set of coding conventions or *style gui
 > ## Style consistency
 > 
 > One of the [key insights from Guido van Rossum](https://www.python.org/dev/peps/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds) who invented the Python language, is that code is read much more often than it is written. Style guidelines are intended to improve the readability of code and make it consistent across the wide spectrum of Python code. Consistency with the style guide is important. Consistency within a project is more important.
-> Consistency within one module or function is the most important. However, know when to be inconsistent --
-sometimes style guide recommendations are just not applicable. When in doubt, use your best judgment.
+> Consistency within one module or function is the most important. However, know when to be inconsistent; sometimes style guide recommendations are just not applicable. When in doubt, use your best judgement.
 Look at other examples and decide what looks best. And don't hesitate to ask!
 {: .callout}
 
