@@ -170,7 +170,7 @@ Number was greater than 50
 {: .output}
 
 In the example above, because `number` is greater than 50, the **condition** evaluates as `True` and the **block** of code within the `if` is executed.
-Code blocks are introduced in Python with a colon (`:`), which we see in the example above, but we'll also see in a couple of other contexts soon.
+Code blocks are introduced in Python with a colon (`:`), which we see in the example above, but we'll also see it in a couple of other contexts soon.
 If the condition doesn't evaluate as `True` (i.e. it evaluates as `False`), the block of code is skipped.
 The expression `number > 50` evaluates to `True` if the value of `number` is less than 50, otherwise it evaluates to `False`.
 
