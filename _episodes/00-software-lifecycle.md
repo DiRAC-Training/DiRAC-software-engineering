@@ -56,7 +56,7 @@ Later levels imply the earlier ones. So what should we aim for? As researchers w
 > 
 > Have you used any academically-produced (or other) software in your work, or perhaps developed some yourself?
 > 
-> - List three things that were good about it, and three shortcomings.
+> - List three things that were good about it and three shortcomings.
 > - Which three aspects do you think should have been given greater attention during its development (or even afterwards)?
 >
 {: .challenge}
