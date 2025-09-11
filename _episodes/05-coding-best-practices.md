@@ -143,7 +143,7 @@ The kind of things that need to be commented are:
 - The names of any algorithms or design patterns that have been implemented.
 - The expected format of input files or database schemas.
 
-There are some restrictions. Comments that simply restate basic code behaviour line-by-line are redundant - it's better to focus comments on *why* the code is as it is, or to explain particularly complex behaviour. Of course, comments must be accurate, because an incorrect comment causes more confusion than no comment at all, so remember to update comments when you update your code!
+There are some restrictions. Comments that simply restate basic code behaviour line-by-line are redundant, it's better to focus comments on *why* the code is as it is, or to explain particularly complex behaviour. Of course, comments must be accurate, because an incorrect comment causes more confusion than no comment at all, so remember to update comments when you update your code!
 
 Many languages allow you to use special types of comment to describe the functions and modules in your code, which is often a helpful discipline for increasing readability. For example, in Python these are known as *docstrings*: if the first thing in a function is a string that is not assigned to a variable, that string is attached to the function as its documentation. Consider the following code implementing a function for calculating the nth Fibonacci number:
 
