@@ -177,7 +177,7 @@ print(double_int_dict)
 {: .output}
 
 These 'comprehensions' cover the map and filter components of MapReduce, but not the reduce component.
-For that we either need to rely on a built in reduction operator, or use the `reduce` function with a custom reduction operator.
+For that we either need to rely on a built-in reduction operator or use the `reduce` function with a custom reduction operator.
 
 In many cases, what we want to do is to sum the values in a collection - for this we have the built in `sum` function:
 
