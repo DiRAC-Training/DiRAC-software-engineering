@@ -247,7 +247,7 @@ We can then create an **instance** of the class by using similar syntax to calli
 When we create instances for Alice and Bob, we provide the values to the parameters of the `__init__` method.
 
 When a function belongs to a class like this, we often refer to it as a **method**.
-Normal methods will have `self` as their first parameter, but notice that we don't ever provide a value for this when we call the `__init__` method (implicitly) or the `add_measurement` method.
+Normal methods will have `self` as their first parameter, but note that we don't ever provide a value for this when we call the `__init__` method (implicitly) or the `add_measurement` method.
 This is because it gets filled in for us, to refer to the instance of the class that we're operating on.
 In the case of the line `alice.add_measurement(10)`, the value of the `self` parameter, will be the class instance `alice`.
 
