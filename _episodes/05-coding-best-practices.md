@@ -101,7 +101,7 @@ public class Functions
 
 ...but the second example will be more easily understood by the reader.
 
-Indentation makes a clear connection between blocks of code and the classes, functions or loops to which they belong. If a statement is longer than a single line on screen, indentation helps the reader understand where the statement begins and ends. White-space makes the code appear less cluttered and allows the grouping together of logically-related elements like constants or local variable declarations.
+Indentation makes a clear connection between blocks of code and the classes, functions or loops to which they belong. If a statement is longer than a single line on screen, indentation helps the reader understand where the statement begins and ends. Whitespace makes the code appear less cluttered and allows the grouping together of logically-related elements like constants or local variable declarations.
 
 In many languages, indentation is purely cosmetic (e.g. Java or C/C++) and the number of spaces used to indent code is left to the developer to decide. However, in certain languages (e.g. Python or Occam) indentation is more restrictive because it has semantic significance: it defines a loop body or a function body.
 
