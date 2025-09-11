@@ -135,7 +135,7 @@ Similar conventions exist for other languages.
 
 ### Code Comments
 
-Source code tells the reader what the code does, whilst code comments allow us to provide the reader with additional information about it. The reader should be able to understand a single function or method from its code and its comments, and should not have to look elsewhere in the code for clarification. It can be easy to get lost in code, and others  will not have the same knowledge of our project or code as we do.
+Source code tells the reader what the code does, whilst code comments allow us to provide the reader with additional information about it. The reader should be able to understand a single function or method from its code and its comments, and should not have to look elsewhere in the code for clarification. It can be easy to get lost in code and others  will not have the same knowledge of our project or code as we do.
 
 The kind of things that need to be commented are:
 
