@@ -32,7 +32,7 @@ keypoints:
 
 ## Writing Readable Source Code
 
-Source code is designed for humans. It may end up being processed by a machine, but it evolves in our hands and we need to understand what the code does and where changes need to be made. We may understand our code now, but what about six months or a year from now? Readable code helps us to re-aquaint ourselves with what we wrote and why we wrote it.
+Source code is designed for humans. It may end up being processed by a machine, but it evolves in our hands and we need to understand what the code does and where changes need to be made. We may understand our code now, but what about six months or a year from now? Readable code helps us to reaquaint ourselves with what we wrote and why we wrote it.
 
 Our code may embody some unique aspect of our research. Readable code can help our fellow researchers to understand what we've done and so to assess whether this aspect of our research is correct. Or, to put it another way, would we rather have a colleague spot a problem now, or, six months later when we've published a paper based on flawed results produced using our software?
 
