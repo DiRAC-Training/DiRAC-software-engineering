@@ -149,7 +149,7 @@ def fahr_to_kelvin(fahr):
 ~~~
 {: .language-python}
 
-But on closer inspection, we find that the second of these functions can be broken down into two sub-tasks: firstly, convert Fahrenheit to Celsius, then convert Celsius to Kelvin.
+But on closer inspection, we find that the second of these functions can be broken down into two subtasks: firstly, convert Fahrenheit to Celsius, then convert Celsius to Kelvin.
 Since we already have a function which converts from Fahrenheit to Celsius, we can make use of this:
 
 ~~~ python
