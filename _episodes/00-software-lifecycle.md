@@ -107,7 +107,7 @@ Requirements can be categorised in many ways, but at a high level a useful way t
 
 ### Business requirements
 
-Business requirements describe what is needed from the perspective of the organisation and define the strategic path of the project, e.g. to increase profit margin or market share, or embark on a new research area or collaborative partnership. These are captured in something like a Business Requirements document.
+Business requirements describe what is needed from the perspective of the organisation and define the strategic path of the project, i.e. to increase profit margin or market share, or embark on a new research area or collaborative partnership. These are captured in something like a Business Requirements document.
 
 For adapting our clinical trial software project, example business requirements could include:
 
