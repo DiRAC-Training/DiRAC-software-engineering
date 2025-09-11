@@ -357,7 +357,7 @@ Inheritance is about data and behaviour shared by classes, because they have som
 If class `Y` inherits from (*is a*) class `X`, we say that `X` is the **superclass** or **parent class** of `Y`, or `Y` is a **subclass** of `X`.
 
 If we want to extend the previous example to also manage people who aren't patients we can add another class `Person`.
-But `Person` will share some data and behaviour with `Patient` - in this case both have a name and show that name when you print them.
+But `Person` will share some data and behaviour with `Patient`, in this case both have a name and show that name when you print them.
 Since we expect all patients to be people (hopefully!), it makes sense to implement the behaviour in `Person` and then reuse it in `Patient`.
 
 To write our class in Python, we used the `class` keyword, the name of the class, and then a block of the functions that belong to it.
