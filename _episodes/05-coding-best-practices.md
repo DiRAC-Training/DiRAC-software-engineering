@@ -38,7 +38,7 @@ Our code may embody some unique aspect of our research. Readable code can help o
 
 There's also our image to consider. If our code is badly laid out, messy and cryptic, others will assume that it is also buggy and sloppily written. They may assume that we undertake our research in a similarly slack manner.
 
-If we're working in a team to develop some code then readable source code can ensure that everyone can understand the code written by everyone else. This can help improve a team's [**bus factor**](https://en.wikipedia.org/wiki/Bus_factor), which is defined as the number of developers who need to be put out of action before noone understands the code.
+If we're working in a team to develop some code then readable source code can ensure that everyone can understand the code written by everyone else. This can help improve a team's [**bus factor**](https://en.wikipedia.org/wiki/Bus_factor), which is defined as the number of developers who need to be put out of action before no one understands the code.
 
 Writing readable code costs only a little more time than writing unreadable code, but the payback is immense. Reading and understanding source code is slow, laborious and can lead to misinterpretation. It is always a good idea to keep others in mind when writing code, so a good rule of thumb is to assume that someone will always read your code at a later date, and this includes a future version of yourself!
 
