@@ -230,7 +230,7 @@ On the other hand, you might want to knock together some code to prove a concept
 
 When resources are tight, it's easy to focus on the bare minimum needed to get the software to do what it's meant to do and leave less pressing tasks, such as documentation, testing, and refactoring, until the end of the project. The plan often is to complete these tasks when time permits, and time rarely permits!
 
-You can save time, in the short term, by not commenting code, not refactoring to make it more readable, not addressing compiler warnings, leaving aside tests, skipping documentation and not recording why something was implemented in a specific way. These actions all incur **technical debt**:
+In the short term, you can save time by not commenting code, not refactoring to make it more readable, not addressing compiler warnings, leaving aside tests, skipping documentation and not recording why something was implemented in a specific way. These actions all incur **technical debt**:
 
 > *"Technical debt is the cost of additional rework caused by choosing an easy (limited) solution now instead of using a better approach that would take longer.”*
 
