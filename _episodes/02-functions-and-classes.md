@@ -39,7 +39,7 @@ In the example above, we define a function `add_one` which adds one to a number.
 To define a function, we need to start with the `def` keyword, then the function name, the function **arguments** in parentheses and the colon to start a new block.
 Within the function's code block we can do anything we could outside of a function, but in order to get any data back out of the function we need to `return` it.
 
-The arguments of a function are the values it takes as input - when we **call** the function inside the `print()`, we provide the values of any required parameters, in this case just `x`.
+The arguments of a function are the values it takes as input; when we **call** the function inside the `print()`, we provide the values of any required parameters, in this case just `x`.
 The value returned by the function is then passed on to `print()`, just as it would be if we'd put the value there directly.
 
 The last component of the function definition above is the **docstring**.
