@@ -423,7 +423,7 @@ We see in the example above that to say that a class inherits from another, we p
 
 > ## Inheritance: What About Extending it Further?
 >
-> Our example shows a single level of inheritance, but again we could take this further as needed. We could, for example, have a special type of `Patient` that largely behaves the same but needs to be modelled differently. In this case, we could add a class that is a subclass of `Patient`. Alternatively, we could have a different type of `Person` captured in our model - a good example would be our `Doctor`,which we could define thus:
+> Our example shows a single level of inheritance, but again we could take this further as needed. We could, for example, have a special type of `Patient` that largely behaves the same but needs to be modelled differently. In this case, we could add a class that is a subclass of `Patient`. Alternatively, we could have a different type of `Person` captured in our model; a good example would be our `Doctor`,which we could define thus:
 > 
 > ~~~ python
 > class Doctor(Person):
