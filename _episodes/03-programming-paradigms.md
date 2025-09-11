@@ -103,10 +103,10 @@ Examples include: printing text, modifying the value of an argument, or changing
 >
 > > ## Solution
 > >
-> > 1. `add_one` is pure - it has no effects other than to return a value and this value will always be the same when given the same inputs
-> > 2. `say_hello` is not pure - printing text counts as a side effect, even though it is the clear purpose of the function
-> > 3. `append_item_1` is not pure - the argument `a_list` gets modified as a side effect - try this yourself to prove it
-> > 4. `append_item_2` is pure - the result is a new variable, so this time `a_list` doesn't get modified - again, try this yourself
+> > 1. `add_one` is pure - it has no effects other than to return a value and this value will always be the same when given the same inputs.
+> > 2. `say_hello` is not pure - printing text counts as a side effect, even though it is the clear purpose of the function.
+> > 3. `append_item_1` is not pure - the argument `a_list` gets modified as a side effect - try this yourself to prove it.
+> > 4. `append_item_2` is pure - the result is a new variable, so this time `a_list` doesn't get modified - again, try this yourself.
 >{: .solution}
 {: .challenge}
 
