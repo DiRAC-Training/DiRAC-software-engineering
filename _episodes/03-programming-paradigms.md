@@ -134,7 +134,7 @@ print(double_ints)
 {: .output}
 
 The above example uses a **list comprehension** to double each number in a sequence.
-Notice the similarity between the syntax for a list comprehension and a for loop - in effect, this is a for loop compressed into a single line.
+Notice the similarity between the syntax for a list comprehension and a for loop; in effect, this is a for loop compressed into a single line.
 
 We can also use list comprehensions to filter data, by adding the filter condition to the end.
 
