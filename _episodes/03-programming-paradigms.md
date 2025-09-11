@@ -7,8 +7,8 @@ questions:
 - "How does the structure of a problem affect the structure of our code?"
 objectives:
 - "Briefly describe the major paradigms we can use to classify programming languages."
-- "Decompose the flow of data within a program into a sequence of data transformations"
-- "Use classes to encapsulate data within a more complex program"
+- "Decompose the flow of data within a program into a sequence of data transformations."
+- "Use classes to encapsulate data within a more complex program."
 keypoints:
 - "A Paradigm describes a way of structuring reasoning about code."
 - "Different programming languages are suited to different paradigms."
@@ -67,7 +67,7 @@ Being strict about this definition allows us to break down the distinction betwe
 The most common application of Functional Programming in research is in data processing, especially when using **Big Data**.
 A popular definition of Big Data is data which is too large to fit in the memory of a single computer, with a single dataset sometimes being multiple terabytes or larger.
 With datasets like this, we can't move the data around easily, so we often want to send our code to where the data is instead.
-By writing our code in a functional style, we also gain the ability to run many operations in parallel as it's guaranteed that each operation won't interact with any of the others - this is essential if we want to process this much data in a reasonable amount of time.
+By writing our code in a functional style, we also gain the ability to run many operations in parallel as it's guaranteed that each operation won't interact with any of the others; this is essential if we want to process this much data in a reasonable amount of time.
 
 ### Pure Functions and Side Effects
 
