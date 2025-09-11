@@ -192,13 +192,13 @@ Code analysis tools allow our coding conventions to be defined as rules. Our sou
 
 Software always needs new features or bug fixes. Maintainable software is easy to extend and fix, which encourages the software's uptake and use. Maintainable software allows you to quickly and easily:
 
-- Fix a bug, without introducing a new bug as you do so
-- Add new features, without introducing bugs as you do so
-- Improve usability
-- Increase performance
-- Make a fix that prevents a bug from occurring in future
-- Make changes to support new environments, operating systems or tools
-- Bring new developers on board your project
+- Fix a bug, without introducing a new bug as you do so.
+- Add new features, without introducing bugs as you do so.
+- Improve usability.
+- Increase performance.
+- Make a fix that prevents a bug from occurring in future.
+- Make changes to support new environments, operating systems or tools.
+- Bring new developers on board your project.
 
 More formally, the IEEE Standard Glossary of Software Engineering Terminology defines maintainability as:
 
