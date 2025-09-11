@@ -26,9 +26,7 @@ Even if you are now solely a software user and do not plan to develop any code, 
 
 Traditionally in academia, software - and the process of writing it - is often seen as a necessary but throwaway artefact in research. For example, there may be research questions (for a given research project), code is created to answer those questions, the code is run over some data and analysed, and finally a publication is written based on those results. These steps are often taken informally.
 
-The terms *programming* (or even *coding*) and *software engineering* are often used interchangeably. They are not. Programmers or coders tend to focus on one part of the software development process more than any other: implementation. In academic research, often they are writing software for themselves - they are their own stakeholders. And ideally, they are writing software from a design that fulfils a research goal to publish research papers.
-
-On the other hand, someone who is engineering software takes a wider view:
+The terms *programming* (or even *coding*) and *software engineering* are often used interchangeably. They are not. Programmers or coders tend to focus on one part of the software development process more than any other: implementation. In academic research, often they are writing software for themselves - they are their own stakeholders. And ideally, they are writing software from a design that fulfils a research goal to publish research papers whilst, on the other hand, someone who is engineering software takes a wider view:
 
 - The *lifecycle* of software: from understanding what is needed, to writing the software and using/releasing it, to what happens afterwards.
 - Who will (or may) be involved: software is written for *stakeholders*. This may only be the researcher initially, but there is an understanding that others may become involved later (even if that isn't evident yet). A good rule of thumb is to always assume that code will be read and used by others later on, which includes yourself!
