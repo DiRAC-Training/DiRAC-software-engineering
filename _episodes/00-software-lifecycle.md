@@ -128,7 +128,7 @@ For our software, they could include things for trial managers such as (building
 
 Solution (or product) requirements describe characteristics that a concrete solution or product must have to satisfy the stakeholder requirements. They fall into two key categories:
 
-- *Functional Requirements* focus on functions and features of a solution. For our software, building on our user requirements, e.g.
+- *Functional Requirements* focus on functions and features of a solution. For our software, building on our user requirements, e.g.:
   - SR1 (from UR1): statistical measures include mean average, minimum, maximum, and standard deviation of inflammation readings for each patient for each day of a trial.
   - SR2 (from UR2): generate a textual representation of statistics that can be imported into auditing documents.
 - *Non-functional Requirements* focus on *how* the behaviour of a solution is expressed or constrained, e.g. performance, security, usability, or portability. These are also known as *quality of service* requirements. For our project, e.g.:
