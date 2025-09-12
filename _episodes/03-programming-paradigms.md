@@ -33,9 +33,9 @@ Because of this, it's useful to know about the major paradigms, so you can recog
 
 There's a long history behind this, but to skip straight to now, there's currently three dominant programming paradigms:
 
-- Procedural - where code is logically grouped into procedures that perform tasks
-- Functional - a more declarative way of structuring and composing code purely around functions, avoiding concepts of shared state and mutable data, and treating functions themselves as data
-- Object Oriented - which organises code around the structure of data, with data and functions that operate on that data defined within an object structure that groups these together
+- Procedural - where code is logically grouped into procedures that perform tasks.
+- Functional - a more declarative way of structuring and composing code purely around functions, avoiding concepts of shared state and mutable data, and treating functions themselves as data.
+- Object Oriented - which organises code around the structure of data, with data and functions that operate on that data defined within an object structure that groups these together.
 
 Let us take a look into each of these in turn, and how each can be useful.
 
