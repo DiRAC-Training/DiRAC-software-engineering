@@ -30,7 +30,7 @@ keypoints:
 - "Change the way you write code to make maintainability a key goal."
 ---
 
-## Writing Readable Source Code
+## Writing readable source code
 
 Source code is designed for humans. It may end up being processed by a machine, but it evolves in our hands and we need to understand what the code does and where changes need to be made. We may understand our code now, but what about six months or a year from now? Readable code helps us to reaquaint ourselves with what we wrote and why we wrote it.
 
@@ -42,7 +42,7 @@ If we're working in a team to develop some code then readable source code can en
 
 Writing readable code costs only a little more time than writing unreadable code, but the payback is immense. Reading and understanding source code is slow, laborious and can lead to misinterpretation. It is always a good idea to keep others in mind when writing code, so a good rule of thumb is to assume that someone will always read your code at a later date, and this includes a future version of yourself!
 
-### Code Formatting
+### Code formatting
 
 The formatting or appearance of code determines how quickly and easily the reader can understand what it does. A compiler will see no difference between this...
 
@@ -109,7 +109,7 @@ Many programming environments, also known as Integrated Development Environments
 
 Good formatting can impact upon design. A function with seven arguments might not be very readable on-screen, for example. To make it more readable, you could create a new data structure or class to hold some of the arguments. We could also break up a function that cannot be viewed on one screen into a number of smaller functions that can, if the function can be logically decomposed in this way. However, note that in some circumstances, such as within a functional programming paradigm, having many arguments may be unavoidable!
 
-### Naming Things
+### Naming things
 
 The careful selection of names is very important to understanding. Cryptic names of components, modules, classes, functions, arguments, exceptions and variables can lead to confusion about the role that these components play. Good naming is fundamental to good design, because source code represents the most detailed version of our design. Compare and contrast the ease with which the following statements can be understood:
 
@@ -133,7 +133,7 @@ Naming also relates to the use of capitalisation and delimiters, which can help 
 
 Similar conventions exist for other languages.
 
-### Code Comments
+### Code comments
 
 Source code tells the reader what the code does, whilst code comments allow us to provide the reader with additional information about it. The reader should be able to understand a single function or method from its code and its comments, and should not have to look elsewhere in the code for clarification. It can be easy to get lost in code and others  will not have the same knowledge of our project or code as we do.
 
@@ -170,7 +170,7 @@ def fibonacci(n):
 
 Note here we are explicitly documenting our input variables, what is returned by the function, and also when the ValueError exception is raised. Along with a helpful description of what the function does, this information can act as a contract for readers to understand what to expect in terms of behaviour when using the function, as well as how to use it. Docstrings can also be used at the start of a Python module (a file containing a number of Python functions) or at the start of a Python class (containing a number of methods) to list their contents as a reference.
 
-### Coding Conventions
+### Coding conventions
 
 As each language has its own syntax, semantics and sets of built-in commands, what constitutes readable code differs across programming language. What is readable is also affected by the opinions and preferences of the individual reader. Nevertheless, a number of language-specific coding conventions have evolved, reflecting both general and language-specific good practice.
 
@@ -188,7 +188,7 @@ Project-specific conventions can also embody requirements specific to our projec
 Code analysis tools allow our coding conventions to be defined as rules. Our source code can then be analysed against these rules to automatically check for conformance. These tools can publish reports that highlight what rules are violated and where in the code the violations occur. Popular code analysis tools are CheckStyle for Java, StyleCop for C#, Pylint or Flake8 for Python, and codetools for R. For other languages see Wikipedia's [List of tools for static code analysis](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis). In addition, many IDEs such as PyCharm and VSCode are able to highlight common code convention and formatting issues as you type.
 
 
-## Writing Maintainable Software
+## Writing maintainable software
 
 Software always needs new features or bug fixes. Maintainable software is easy to extend and fix, which encourages the software's uptake and use. Maintainable software allows you to quickly and easily:
 
@@ -206,18 +206,18 @@ More formally, the IEEE Standard Glossary of Software Engineering Terminology de
 
 The maintainability of software depends on quite a few factors. However, in general it must be easy to understand (how it works, what it does, and why it does it a particular way), easy to find what needs to change to achieve a given aim, easy to make those changes, and easy to check that the changes have not introduced any bugs. Writing readable code, as covered previously in this section, goes a long way to making code maintainable.
 
-### Long- or Short-Lived Code?
+### Long- or short-lived code?
 
 You or others on your project may be developing open-source software with the intent that it will live on after your project completes. It could be important to you that your software is adopted and used by other projects as this may help you get future funding. It can make your software more attractive to potential users if they have the confidence that they can fix bugs that arise or add new features they need, if they can be assured that the evolution of the software is not dependant upon the lifetime of your project.
 
 On the other hand, you might want to knock together some code to prove a concept or to perform a quick calculation and then just discard it. But can you be sure you'll never want to use it again? Maybe a few months from now you'll realise you need it after all, or you'll have a colleague say "I wish I had a..." and realise you've already made one!
 
-> ## Short-Lived Code, or Not?
+> ## Short-lived code, or not?
 > 
 > Have you ever used any code or software that was intended to be "short-lived", whether written by yourself or not? Perhaps it's a short script or other small piece of code. Would it have benefited from greater effort to improve it for longer-term use, and if so, when should that have been considered?
 {: .challenge}
 
-> ## What to do with Short-Lived Code?
+> ## What to do with short-lived code?
 > 
 > Even short-lived code can contain useful lessons learned, perhaps about how to use a particular technology, how it was written, or importantly, how it solved a *particular problem*. So when short-lived code has outlived its original purpose, what should you do with it?
 > 
@@ -226,7 +226,7 @@ On the other hand, you might want to knock together some code to prove a concept
 > A small investment in the maintainability of your code makes it easier to pick it up after a break and can provide you with an insurance policy should your disposable software turn out to be more useful than you originally thought.
 {: .callout}
 
-### The Cost of Neglecting Maintainability
+### The cost of neglecting maintainability
 
 When resources are tight, it's easy to focus on the bare minimum needed to get the software to do what it's meant to do and leave less pressing tasks, such as documentation, testing, and refactoring, until the end of the project. The plan often is to complete these tasks when time permits, and time rarely permits!
 
@@ -238,7 +238,7 @@ And - just like financial debt - it's a debt that gathers interest over time. Te
 
 Help is at hand! Developing maintainable software helps reduce technical debt. By thinking ahead and investing now you reduce the impact of changes in the future.
 
-### How to Develop Maintainable Software
+### How to develop maintainable software
 
 Developing maintainable software is like picnicking: once you're finished, leave your spot as you would like to find it yourself, or leave it in a better state than you found it. There are a number of principles, approaches and techniques that can help you develop maintainable software and many of these are generally applicable to writing good software:
 
@@ -250,14 +250,14 @@ Developing maintainable software is like picnicking: once you're finished, leave
 - *Use version control:* version control helps keep code and documentation up to date and synchronised, and allows you to roll back any parts of your code to previous versions if you run into trouble.
 - *Select sustainable technologies:* to avoid using libraries and other dependencies that may become outdated or even non-functional during development or use, be sure to choose technologies that have a good track record of delivering quality releases, and a sustainable, active development community.
 
-> ## Which Qualities do *you* Value?
+> ## Which qualities do *you* value?
 > 
 > Consider the above list from your own perspective, either as a user of software or as a developer (or both). List these in the order they are important to you.
 > 
 > If you've listed them from both perspectives, how is the ordering different? If you find there any at or near the top of both lists, that may help you prioritise what to aim for when developing code.
 {: .challenge}
 
-### A Maintainability Checklist
+### A maintainability checklist
 
 Here's another developer-level perspective on maintainability, which this time asks questions to help you judge maintainability of software you write:
 
@@ -268,7 +268,7 @@ Here's another developer-level perspective on maintainability, which this time a
 - Can I make a change with only a low risk of breaking existing features?
 - If I do break something, is it quick and easy to detect and diagnose the problem? 
 
-> ## Developers: How Maintainable is Your Code?
+> ## Developers: How maintainable is your code?
 > 
 > From your own perspective, answer the questions above for a piece of software, code, or script you've written in the past.
 > Next, ask the questions again but, this time, adopt the perspective of someone else in your team who is completely new to your software.
