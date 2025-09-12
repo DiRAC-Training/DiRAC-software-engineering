@@ -18,7 +18,7 @@ Before we can move on though, we'll cover some of the core features of Python he
 If you're already familiar with Python, consider this a refresher.
 If not, then this section should cover everything you need to know for the remainder.
 
-## Data Types
+## Data types
 
 An obvious place to start when learning a new language is with how it stores and represents data.
 In most languages, there are a range of **types** of data which can be represented.
@@ -61,7 +61,7 @@ Hello world!
 
 Also unlike these languages, there's no way in Python to **declare** a variable without assigning to it.
 
-## Data Structures
+## Data structures
 
 But what about when we need to store more than one value?
 That's where the next set of types comes in, the **collection** types, representing common **data structures**.
@@ -147,7 +147,7 @@ set1.intersection(set2)
 As a shorthand, you can also use `set1 | set2` and `set1 & set2` for doing union and intersection respectively instead.
 
 
-## Looping and Branching
+## Looping and branching
 
 Now we know how to store and structure data, let's move onto processing that data.
 Two important ideas in most programming languages you'll encounter are branching and looping.
