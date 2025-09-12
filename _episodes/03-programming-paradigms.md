@@ -266,7 +266,7 @@ This structure also provides a way for us to associate code with an object, repr
 
 The main tools of Object Oriented Programming are **classes** and the relationships between them.
 
-## Relationships Between Classes
+## Relationships between classes
 
 Classes give us a tool for grouping data and behaviour related to a single conceptual object.
 The next step we need to take is to describe the relationships between the concepts in our code.
@@ -325,7 +325,7 @@ print(obs)
 
 Now we're using a composition of two custom classes to describe the relationship between two types of entity in the system that we're modelling.
 
-> ## Composition: What About Extending it Further?
+> ## Composition: What about extending it further?
 > 
 > Of course, reality is often more complex than a single relationship between two types of 'thing' and we can also add other classes and relationships to our model as required. Let's consider adding a doctor that has patients (just after the `Patient` class):
 > 
@@ -421,7 +421,7 @@ As expected, an error is thrown because we cannot add an observation to `bob`, w
 
 We see in the example above that to say that a class inherits from another, we put the **parent class** (or **superclass**) in brackets after the name of the **subclass**.
 
-> ## Inheritance: What About Extending it Further?
+> ## Inheritance: What about extending it further?
 >
 > Our example shows a single level of inheritance, but again we could take this further as needed. We could, for example, have a special type of `Patient` that largely behaves the same but needs to be modelled differently. In this case, we could add a class that is a subclass of `Patient`. Alternatively, we could have a different type of `Person` captured in our model; a good example would be our `Doctor`,which we could define thus:
 > 
